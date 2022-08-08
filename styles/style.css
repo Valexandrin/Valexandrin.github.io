@@ -6,7 +6,7 @@ img {
 }
 
 html {
-    font-size: 16px; /* px значит 'пиксели': базовый шрифт будет 16 пикселей в высоту  */
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #c5d3e1;
   }
@@ -31,4 +31,23 @@ h1 {
 p, li {
     line-height: 2;
     letter-spacing: 1px;
-}
+} 
+
+
+/* for "meta-example.html"
+
+html {
+    background-color: green;
+    font-size: 20px;
+  }
+  
+  ul {
+    background: red;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+*/
