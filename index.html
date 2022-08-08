@@ -1,39 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
-    <meta charset="utf-8" >
+    <meta charset="utf-8">
+    <meta name="author" content="@Valexandrin">
+
     <title>HH-parser</title>
+
+    <link href="images/icon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Vacancy</h1>
+    <header>
+      <h1>Vacancy</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">All</a></li>
+        <li><a href="#">New</a></li>
+      </ul>
+
+      <form>
+        <input type="search" name="q" placeholder="Search query">
+        <input type="submit" value="Go!">
+      </form>
+    </nav>
     <img src="images/find_job.png" alt="Test picture">
 
-    <h2>Python Developer</h2>
+    <main>
 
-    <h3>Обязанности</h3>
-        <p>Развитие и поддержание бэкенда финтеха.
-            <ul>
-                <li>Обмен данными с API криптовалютных бирж (например, Binance, Kraken).</li>
-                <li>Написание и оптимизация API для взаимодействия с UI.</li>
-                <li>Работа с БД (транзакции, кэш).</li>
-                <li>Покрытие кода тестами (unit и не только).</li>
-            </ul>
-        </p>
+      <article>
 
-    <h3>Требования</h3>
-        <ol>        
-            <li>Коммерческий опыт от 3-х лет в роли разработчика на Python.</li>
-            <li>Знание разнообразных библиотек - Django/DRF, asyncio и aiohttp.</li>
-            <li>Понимание особенностей REST и Websocket.</li>
-            <li>Умение работать с PostgreSQL и Redis.</li>
-            <li>Навыки работы с Git и GitLab CI.</li>
-            <li>Умение работать с Docker.</li>
-        </ol>
-    
-    <a href="https://naberezhnye.hh.ru/vacancy/68358577">Go to HH</a>
-    <button>Change user</button>
+        <h2>Python Developer</h2>
+
+        <h3>Обязанности</h3>
+            <p>Развитие и поддержание бэкенда финтеха.
+                <ul>
+                    <li>Обмен данными с API криптовалютных бирж (например, Binance, Kraken).</li>
+                    <li>Написание и оптимизация API для взаимодействия с UI.</li>
+                    <li>Работа с БД (транзакции, кэш).</li>
+                    <li>Покрытие кода тестами (unit и не только).</li>
+                </ul>
+            </p>
+
+        <h3>Требования</h3>
+            <ol>        
+                <li>Коммерческий опыт от 3-х лет в роли разработчика на Python.</li>
+                <li>Знание разнообразных библиотек - Django/DRF, asyncio и aiohttp.</li>
+                <li>Понимание особенностей REST и Websocket.</li>
+                <li>Умение работать с PostgreSQL и Redis.</li>
+                <li>Навыки работы с Git и GitLab CI.</li>
+                <li>Умение работать с Docker.</li>
+            </ol>
+        
+      </article>
+      
+      <p><a href="https://naberezhnye.hh.ru/vacancy/68358577">Go to HH</a></p>
+      <p>
+        <a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&amp;subject=The%20subject%20of%20the%20email &amp;body=The%20body%20of%20the%20email">
+        Send mail with cc, bcc, subject and body
+        </a></p>
+      <button>Change user</button>
+
+      <aside>
+        <h2>Связанные темы</h2>
+
+        <ul>
+          <li><a href="#">Мне нравится стоять рядом с берегом моря</a></li>
+          <li><a href="#">Мне нравится стоять рядом с морем</a></li>
+          <li><a href="#">Даже на севере Англии</a></li>
+          <li><a href="#">Здесь не перестаёт дождь</a></li>
+          <li><a href="#">Лаааадно...</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer>
+      <p>©Авторские права никому не принадлежат, 2050. Все права защищены.</p>
+    </footer>
+
     <script src="scripts/main.js"></script>
 
   </body>
